@@ -1,6 +1,7 @@
 import './App.css';
-import React, { Component }  from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from './pages';
 
 function App() {
   return (
@@ -98,6 +99,11 @@ function App() {
     </footer>
     </div>
   );
+}
+
+function downloadResume() {
+    window.location.href = "";
+    return <p>Redirecting...</p>;
 }
 
 export default App;
