@@ -1,35 +1,48 @@
-import React from 'react'
+import React from 'react';
+import {FaBars} from 'react-icons/fa';
+import { 
+    Nav,
+    NavbarContainer,
+    NavLogo,
+    NavMenu,
+    NavItem,
+    NavLink,
+    MobileIcon
+} from './navbarElements';
 
 const Navbar = () => {
     return (
-        <div>
-            <nav>
-                <navNameContainer>
-                    <navName draggable="false" onmousedown="return false" src="gs://portfolio-fdf27.appspot.com/web_assets/profile.jpeg" alt="Picture of Landon Thibodeau"></navName>
-                </navNameContainer>
-                <navMenu>
-                    <navItem>
-                        <navLink to="home" offset={-70} smooth={true} duration={1000}>Home</navLink>
-                    </navItem>
-                    <navItem>
-                        <navLink to="about" offset={-70} smooth={true} duration={1000}>About</navLink>
-                    </navItem>
-                    <navItem>
-                        <navLink to="skills" offset={-70} smooth={true} duration={1000}>Skills</navLink>
-                    </navItem>
-                    <navItem>
-                        <navLink to="portfolio" offset={-70} smooth={true} duration={1000}>Portfolio</navLink>
-                    </navItem>
-                    <navItem>
-                        <navLink to="experience" offset={-70} smooth={true} duration={1000}>Experience</navLink>
-                    </navItem>
-                    <navItem>
-                        <navLink to="contact" offset={-70} smooth={true} duration={1000}>Contact</navLink>
-                    </navItem>
-                </navMenu>
-            </nav>
-        </div>
-    )
-}
+        <>
+            <Nav>
+                <NavbarContainer>
+                    <NavLogo to='/'>Landon Thibodeau</NavLogo>
+                    <MobileIcon>
+                        <FaBars />
+                    </MobileIcon> 
+                    <NavMenu>
+                        <NavItem>
+                            <NavLink to='home'>Home</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to='about'>About</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to='skills'>Skills</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to='portfolio'>Portfolio</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to='experience'>Experience</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to='contact'>Contact Me</NavLink>
+                        </NavItem>
+                    </NavMenu>   
+                </NavbarContainer>
+            </Nav>
+        </>
+    );
+};
 
-export default Navbar
+export default Navbar;

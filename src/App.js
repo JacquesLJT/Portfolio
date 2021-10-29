@@ -1,23 +1,15 @@
-import './App.css';
+//import './App.css';
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './pages';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div>
+    <>
     <header>
-        <nav>
-            <ul>
-                <li id="name">Landon J Thibodeau</li>
-                <li><a href="#introduction">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <Router>
+            <Navbar />
+        </Router>
     </header>
     <main id="main">
         <img id="profile" src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fprofile.jpeg?alt=media&token=6954e6cd-d7b3-4343-9e21-f5642105141d" alt="Picture of Landon Thibodeau" />
@@ -97,7 +89,7 @@ function App() {
     <footer>
         <p id="author">Site by Landon Thibodeau</p>
     </footer>
-    </div>
+    </>
   );
 }
 
