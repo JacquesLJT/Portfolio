@@ -1,6 +1,14 @@
 import React from 'react'
 import profile from '../../webAssets/profile.jpeg'
-import { HeroContainer, HeroTextContainer, HeroH1, HeroBody, LinkOut, HeroImageContainer, HeroImage } from './heroElements'
+import { 
+        HeroContainer,
+        HeroTextContainer,
+        HeroH1, 
+        HeroBody, 
+        LinkOut, 
+        HeroImageContainer, 
+        HeroImage  
+    } from './heroElements'
 
 const Hero = () => {
     return (
