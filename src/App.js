@@ -1,23 +1,15 @@
 //import './App.css';
 import React from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
-import Navbar from './components/navbar';
+import Home from './pages';
 
 function App() {
   return (
     <>
-    <header>
-        <Router>
-            <Navbar />
-        </Router>
-    </header>
+    <Router>
+        <Home />
+    </Router>
     <main id="main">
-        <img id="profile" src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fprofile.jpeg?alt=media&token=6954e6cd-d7b3-4343-9e21-f5642105141d" alt="Picture of Landon Thibodeau" />
-        <div id="introduction">
-            <h1>Hey, I'm Landon!</h1>
-            <p><br /> I'm a student studying at the <strong><a class="links" href="https://www.umaine.edu" target="_blank">University of Maine</a></strong>, in Orono. Pursuing
-                a Bachelor's of science in Computer Science with minors in Computer Engineering and Economics.</p>
-        </div>
         <div id="about">
             <h1>About Me</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget finibus ex, quis molestie lacus. Nulla vitae dolor ut odio pretium condimentum.

@@ -10,13 +10,13 @@ import {
     MobileIcon
 } from './navbarElements';
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>Landon Thibodeau</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon> 
                     <NavMenu>
