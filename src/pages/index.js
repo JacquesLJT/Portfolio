@@ -3,6 +3,9 @@ import Navbar from '../components/navbar'
 import Sidebar from '../components/sidebar'
 import Hero from '../components/hero'
 import About from '../components/about'
+import Skills from '../components/skills'
+import Portfolio from '../components/portfolio'
+import Experience from '../components/experience'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -12,14 +15,20 @@ const Home = () => {
     }
 
     return (
-        <div>
+        <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
 
             <Hero id="home" />
 
             <About id="about" />
-        </div>
+
+            <Skills id="skills" />
+
+            <Portfolio id="portfolio" />
+
+            <Experience id="experience" />
+        </>
     )
 }
 

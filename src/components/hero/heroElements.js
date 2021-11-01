@@ -30,6 +30,7 @@ export const LinkOut = styled.a`
     color: #fff;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid #fff;
 
     &:visited {
         color: #fff;
@@ -38,6 +39,7 @@ export const LinkOut = styled.a`
     &:hover {
         transition: all 0.2s ease-in-out;
         color: #CFD6EA;
+        border-bottom: 2px solid #CFD6EA;
     }
 `;
 

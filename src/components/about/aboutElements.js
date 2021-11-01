@@ -9,14 +9,49 @@ export const AboutContainer = styled.div`
     position: relative;
     z-index: 1;
     background: #CFD6EA;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        padding: 0 24px;
+    }
 `;
 
 export const AboutTextContainer = styled.div`
-    width: 50%;
+    width: 45%;
+    position: relative;
+    display: block;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `;
 
-export const AboutH1 = styled.h1``;
+export const AboutH1 = styled.h1`
+    color: #D36060;
+    font-size: 48px;
+    position: relative;
 
-export const AboutBody = styled.p``;
+    @media screen and (max-width: 768px) {
+        margin: 0 auto;
+        padding-top: 4rem;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+`;
 
-export const MobileAbout = styled.div``;
+export const AboutBody = styled.p`
+    color: #0B3954;
+
+    @media screen and (max-width: 768px) {
+        padding-bottom: 4rem;
+    }
+`;
+
+export const MobileAbout = styled.div`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+`;
