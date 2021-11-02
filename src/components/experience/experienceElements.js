@@ -19,14 +19,32 @@ export const ExperienceTextContainer = styled.div``;
 
 export const ExperienceElement = styled.div``;
 
-export const ExperienceH1 = styled.h1``;
+export const ExperienceH1 = styled.h1`
+    font-size: 48px;
+    color: #fff;
+`;
 
-export const ExperienceTitle = styled.h2``;
+export const ExperienceTitle = styled.h2`
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+`;
 
-export const ExperienceLocation = styled.h3``;
+export const ExperienceLocation = styled.h3`
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+`;
 
-export const ExperienceDates = styled.h3``;
+export const ExperienceDates = styled.h3`
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+`;
 
-export const ExperienceDescription = styled.ul``;
+export const ExperienceDescription = styled.ul`
+`;
 
-export const ExperienceItems = styled.li``;
+export const ExperienceItems = styled.li`
+    color: #fff;
+`;

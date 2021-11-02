@@ -6,6 +6,7 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Portfolio from '../components/portfolio'
 import Experience from '../components/experience'
+import Footer from '../components/footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -28,6 +29,8 @@ const Home = () => {
             <Portfolio id="portfolio" />
 
             <Experience id="experience" />
+
+            <Footer id="footer" />
         </>
     )
 }
