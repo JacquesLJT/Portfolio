@@ -1,6 +1,7 @@
 import React from 'react'
 import {
     ContactContainer,
+    H1Wrapper,
     ContactH1,
     ContactBody,
     ContactItem
@@ -9,7 +10,9 @@ import {
 const Contact = () => {
     return (
         <ContactContainer>
-            <ContactH1>Contact Me</ContactH1>
+            <H1Wrapper>
+                <ContactH1>Contact Me</ContactH1>
+            </H1Wrapper>
             <ContactBody>
                 <ContactItem href="mailto:me@landonthibodeau.com">Email Me</ContactItem>
                 <ContactItem href="/resume" target="_blank">Download my Resume</ContactItem>

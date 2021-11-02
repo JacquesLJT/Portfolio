@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const ExperienceContainer = styled.div`
     display: flex;
     justify-content: left;
-    align-items: left;
-    padding: 0 30px;
+    padding: 30px;
     position: relative;
     z-index: 1;
     background: #0B3954;
@@ -17,7 +16,16 @@ export const ExperienceContainer = styled.div`
 
 export const ExperienceTextContainer = styled.div``;
 
-export const ExperienceElement = styled.div``;
+export const ExperienceElement = styled.div`
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    background: #D36060;
+`;
 
 export const ExperienceH1 = styled.h1`
     font-size: 48px;
@@ -43,6 +51,7 @@ export const ExperienceDates = styled.h3`
 `;
 
 export const ExperienceDescription = styled.ul`
+    margin: 20px;
 `;
 
 export const ExperienceItems = styled.li`

@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
     display: flex;
     justify-content: left;
     align-items: left;
-    padding: 0 30px;
+    padding: 30px;
     height: 400px;
     position: relative;
     z-index: 1;
@@ -54,4 +54,8 @@ export const MobileAbout = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
     }
+`;
+
+export const AboutP = styled.p`
+    
 `;

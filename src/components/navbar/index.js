@@ -15,28 +15,28 @@ const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>Landon Thibodeau</NavLogo>
+                    <NavLogo href='/'>Landon Thibodeau</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon> 
                     <NavMenu>
                         <NavItem>
-                            <NavLink to='home'>Home</NavLink>
+                            <NavLink to='home' offset={-80} smooth={true} duration={1000}>Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='about'>About</NavLink>
+                            <NavLink to='about' offset={-80} smooth={true} duration={1000}>About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='skills'>Skills</NavLink>
+                            <NavLink to='skills' offset={-80} smooth={true} duration={1000}>Skills</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='portfolio'>Portfolio</NavLink>
+                            <NavLink to='portfolio' offset={-80} smooth={true} duration={1000}>Portfolio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='experience'>Experience</NavLink>
+                            <NavLink to='experience' offset={-80} smooth={true} duration={1000}>Experience</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='contact'>Contact Me</NavLink>
+                            <NavLink to='contact' offset={-80} smooth={true} duration={1000}>Contact Me</NavLink>
                         </NavItem>
                     </NavMenu>   
                 </NavbarContainer>

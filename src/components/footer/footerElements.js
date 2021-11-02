@@ -31,6 +31,7 @@ export const FooterColumn = styled.div`
 `;
 
 export const FooterLogo = styled.div`
+    font-family: 'Exo 2', sans-serif;
     Font-size: 24px;
     display: block;
     margin-bottom: 0.1rem;

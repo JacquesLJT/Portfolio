@@ -4,7 +4,8 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: left;
     align-items: left;
-    padding: 0 30px;
+    margin-top: 80px;
+    padding: 30px;
     height: 400px;
     position: relative;
     z-index: 1;

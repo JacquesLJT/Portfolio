@@ -3,10 +3,9 @@ import styled from "styled-components";
 export const SkillsContainer = styled.div`
     background: #0B3954;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: left;
-    padding: 0 30px;
-    width: 100%;
+    padding: 30px;
     position: relative;
 
     @media screen and (max-width: 768px) {

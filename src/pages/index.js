@@ -21,16 +21,22 @@ const Home = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
 
-            <Hero id="home" />
+            <span name="home" />
+            <Hero name="home" />
 
+            <span name="about" />
             <About id="about" />
 
+            <span name="skills" />
             <Skills id="skills" />
 
+            <span name="portfolio" />
             <Portfolio id="portfolio" />
 
+            <span name="experience" />
             <Experience id="experience" />
 
+            <span name="contact" />
             <Contact id="contact" />
 
             <Footer id="footer" />

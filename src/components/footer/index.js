@@ -56,7 +56,7 @@ const Footer = () => {
             </FooterColumn>
         </FooterContainer>
         <FooterRibbon>
-            Site by Landon Thibodeau | 2021 | <FooterRibbonLink href="https://github.com/JacquesLJT/Portfolio" target="_blank" alt="GitHub Repo">GitHub Repo</FooterRibbonLink>
+            Site by Landon Thibodeau | © 2021 | <FooterRibbonLink href="https://github.com/JacquesLJT/Portfolio" target="_blank" alt="GitHub Repo">GitHub Repo</FooterRibbonLink>
         </FooterRibbon>
         </>
     )
