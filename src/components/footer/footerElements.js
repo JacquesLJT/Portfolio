@@ -21,6 +21,7 @@ export const FooterColumn = styled.div`
     display: block;
     height: 100%;
     padding: 1rem;
+    color: #fff;
 
     @media screen and (max-width: 768px) {
         padding: 1rem 0;
@@ -33,6 +34,7 @@ export const FooterLogo = styled.div`
     Font-size: 24px;
     display: block;
     margin-bottom: 0.1rem;
+    colr: #fff;
 
     @media screen and (max-width: 768px) {
         margin: 0 auto;
@@ -48,9 +50,11 @@ export const FooterLinkOut = styled.a`
     display: block;
     margin-bottom: 1rem;
     width: max-content;
+    color: #fff;
 
     &:hover {
         transition: all 0.2s ease-in-out;
+        color: #CFD6EA;
     }
 
     &:visited {
@@ -68,12 +72,12 @@ export const FooterLinkS = styled(LinkS)`
     font-size: 12px;
     border-bottom: 1px dotted;
     width: max-content;
-    font-weight: 600;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     display: block;
     margin-bottom: 1rem;
+    color: #fff;
     
     &:visited {
         color: inherit;
@@ -81,7 +85,7 @@ export const FooterLinkS = styled(LinkS)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        color: #55ccf9;
+        color: #CFD6EA;
     }
 
     @media screen and (max-width: 768px) {
@@ -102,6 +106,8 @@ export const FooterRibbon = styled.div`
     height: 2rem;
     width: 100%;
     margin: 0 auto;
+    color: #fff;
+    background: #0B3954;
 `;
 
 export const FooterRibbonLink = styled.a`
@@ -110,9 +116,11 @@ export const FooterRibbonLink = styled.a`
     cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+    color: #fff;
 
     &:hover {
         transition: all 0.2s ease-in-out;
+        color: #CFD6EA;
     }
 
     &:visited {
