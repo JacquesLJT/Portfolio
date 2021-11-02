@@ -20,6 +20,9 @@ const About = () => {
                         fascination never left me as I grew up. As a kid I've spent hours watching turtorials on youtube wanting to build my own website.
                         I created a very simple batch program quiz game that I brought to thanksgiving one year. 
                     </AboutP>
+                    <AboutP>
+                        More Soon!
+                    </AboutP>
                 </AboutBody>
             </AboutTextContainer>
 

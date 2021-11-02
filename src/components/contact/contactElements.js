@@ -1,59 +1,55 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    display: flex;
+    display: block;
+    justify-content: space-between;
     background: #CFD6EA;
-    position: relative;
     padding: 30px;
-    min-height: 100px;
+    position: relative;
+    z-index: 1;
 
-    @media screen and (max-width: 768px) {
-        display: flex;
-    }
-`;
-
-export const H1Wrapper = styled.div`
-    display: block;
-    width: 100%;
-`;
-
-export const ContactH1 = styled.h1`
-    color: #D36060;
-    font-size: 48px;
-`;
-
-export const ContactBody = styled.div`
-    display: block;
-    width: 100%;
-
-    @media screen and (max-width: 768px) {
+    @media and screen (max-width: 768px) {
         display: block;
     }
 `;
 
-export const ContactItem = styled.a`
-    border: 5px solid #fff;
+export const ContactTitle = styled.h1`
+    margin: 0;
+    font-size: 48px;
+    color: #D36060;
+    z-index: 1;
+    width: 100%;
+    text-align: left;
+`;
+
+export const ItemWrapper = styled.div`
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+
+    @media and screen (max-width: 768px) {
+        display: block;
+    }
+`;
+
+export const ContactLink = styled.a`
+    width: 50%;
+    padding: 20px;
     border-radius: 10px;
-    padding: 15px;
-    margin: 0 20px;
-    font-size: 25px;
+    border: 5px solid #fff;
     background: #D36060;
+    font-size: 24px;
+    cursor: pointer;
     color: #fff;
-    display: block;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
-        color: #CFD6EA;
-        transition: 0.2s ease-in-out;
+        opacity: 0.8;
+        transition: all 0.2s ease-in-out;
     }
 
     &:visited {
         color: #fff;
     }
 
-    @media screen and (max-width: 768px) {
-        display: block;
-        width: 100%;
-        margin-bottom: 1rem;
-        font-size: 24px;
-    }
 `;

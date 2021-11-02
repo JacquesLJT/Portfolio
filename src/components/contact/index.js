@@ -1,22 +1,24 @@
 import React from 'react'
 import {
     ContactContainer,
-    H1Wrapper,
-    ContactH1,
-    ContactBody,
-    ContactItem
+    ContactTitle,
+    ItemWrapper,
+    ContactLink
 } from './contactElements'
 
 const Contact = () => {
     return (
-        <ContactContainer>
-            <H1Wrapper>
-                <ContactH1>Contact Me</ContactH1>
-            </H1Wrapper>
-            <ContactBody>
-                <ContactItem href="mailto:me@landonthibodeau.com">Email Me</ContactItem>
-                <ContactItem href="/resume" target="_blank">Download my Resume</ContactItem>
-            </ContactBody>
+        <ContactContainer id="contact">
+                <ContactTitle>Contact Me</ContactTitle>
+
+                <ItemWrapper>
+                    <ContactLink href="mailto:me@landonthibodeau.com">Email Me</ContactLink>
+                </ItemWrapper>
+
+                <ItemWrapper>
+                    <ContactLink href="/resume" target="_blank">Download my Resume</ContactLink>
+                </ItemWrapper>
+
         </ContactContainer>
     )
 }

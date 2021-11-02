@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
     display: flex;
-    justify-content: left;
-    align-items: left;
     margin-top: 80px;
     padding: 30px;
     height: 400px;
@@ -13,7 +11,8 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroTextContainer = styled.div`
-    width: 75%;
+    display: block;
+    width: 50%;
 `;
 
 export const HeroH1 = styled.h1`
@@ -23,6 +22,7 @@ export const HeroH1 = styled.h1`
 export const HeroBody = styled.p`
     font-size: 25px;
     color: #fff;
+    padding-top: 1rem;
 `;
 
 export const LinkOut = styled.a`
@@ -46,18 +46,18 @@ export const LinkOut = styled.a`
 
 export const HeroImageContainer = styled.div`
     display: block;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    width: 50%;
 `;
 
 export const HeroImage = styled.img`
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    align-items: left;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: 10%;
 `;

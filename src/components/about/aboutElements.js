@@ -40,8 +40,8 @@ export const AboutH1 = styled.h1`
     }
 `;
 
-export const AboutBody = styled.p`
-    color: #0B3954;
+export const AboutBody = styled.div`
+    padding-top: 1rem;
 
     @media screen and (max-width: 768px) {
         padding-bottom: 4rem;
@@ -57,5 +57,7 @@ export const MobileAbout = styled.div`
 `;
 
 export const AboutP = styled.p`
-    
+    color: #0B3954;
+    font-size: 18px;
+    padding-bottom: 1rem;
 `;

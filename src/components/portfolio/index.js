@@ -1,25 +1,31 @@
 import React from 'react'
 import {
     PortfolioContainer,
-    PortfolioHeaderDiv,
     PortfolioElement,
     PortfolioHeader,
     PortfolioBody,
     PortfolioElementTitle,
-    PortfolioItemDescription
+    PortfolioElementDescription
 } from './portfolioElements'
 
 const Portfolio = () => {
     return (
         <PortfolioContainer id="portfolio">
-            <PortfolioHeaderDiv>
-                <PortfolioHeader>Portfolio</PortfolioHeader>
-            </PortfolioHeaderDiv>
+
+            <PortfolioHeader>Portfolio</PortfolioHeader>
+
             <PortfolioBody>
+
                 <PortfolioElement>
                     <PortfolioElementTitle>Personal Website</PortfolioElementTitle>
-                    <PortfolioItemDescription>This is filler</PortfolioItemDescription>
+                    <PortfolioElementDescription>Content Coming Soon</PortfolioElementDescription>
                 </PortfolioElement>
+
+                <PortfolioElement>
+                    <PortfolioElementTitle>Crypocurrency White Paper</PortfolioElementTitle>
+                    <PortfolioElementDescription>Content Coming Soon</PortfolioElementDescription>
+                </PortfolioElement>
+            
             </PortfolioBody>
         </PortfolioContainer>
     )
