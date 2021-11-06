@@ -15,7 +15,6 @@ const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo href='/'>Landon Thibodeau</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon> 
@@ -29,6 +28,7 @@ const Navbar = ({toggle}) => {
                         <NavItem>
                             <NavLink to='skills' offset={-80} smooth={true} duration={1000}>Skills</NavLink>
                         </NavItem>
+                        <NavLogo href='/'>Landon Thibodeau</NavLogo>
                         <NavItem>
                             <NavLink to='portfolio' offset={-80} smooth={true} duration={1000}>Portfolio</NavLink>
                         </NavItem>

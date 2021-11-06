@@ -16,11 +16,12 @@ export const HeroTextContainer = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
+    font-size: 48px;
     color: #fff;
 `;
 
 export const HeroBody = styled.p`
-    font-size: 25px;
+    font-size: 24px;
     color: #fff;
     padding-top: 1rem;
 `;

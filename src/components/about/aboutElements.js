@@ -58,6 +58,6 @@ export const MobileAbout = styled.div`
 
 export const AboutP = styled.p`
     color: #0B3954;
-    font-size: 18px;
+    font-size: 24px;
     padding-bottom: 1rem;
 `;

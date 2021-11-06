@@ -5,7 +5,7 @@ export const Nav = styled.nav`
     background: #D36060;
     height: 80px;
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -20,18 +20,13 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
 `;
 
 export const NavLogo = styled.a`
     color: #fff;
     font-family: 'Exo 2', sans-serif;
-    justify-self: flex-start;
     cursor: pointer;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    margin-left: 24px;
+    font-size: 24px;
     text-decoration: none;
     font-weight: bold;
 `;
@@ -53,10 +48,11 @@ export const MobileIcon = styled.div`
 
 export const NavMenu = styled.ul`
     display: flex;
+    justify-content: center;
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    width: 100%;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -65,18 +61,18 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
+    width: 130px;
+    text-align: center;
 `;
 
 export const NavLink = styled(LinkS)`
     color: #fff;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
     height: 100%;
+    width: 100%;
     cursor: pointer;
-
-    &.active {
-        border-bottom: 3px solid #0B3954;
-    }
+    font-size: 20px;
 `;
