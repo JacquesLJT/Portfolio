@@ -5,10 +5,15 @@ export const AboutContainer = styled.div`
     justify-content: left;
     align-items: left;
     padding: 30px;
-    height: 400px;
+    //height: 400px;
     position: relative;
     z-index: 1;
-    background: #CFD6EA;
+
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fbackground.jpeg?alt=media&token=b0b70b2b-d222-4365-ac02-1aa9573a5ced);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 
     @media screen and (max-width: 768px) {
         display: flex;
@@ -17,9 +22,13 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutTextContainer = styled.div`
-    width: 45%;
+    width: 50%;
     position: relative;
     display: block;
+    color: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -59,5 +68,7 @@ export const MobileAbout = styled.div`
 export const AboutP = styled.p`
     color: #0B3954;
     font-size: 24px;
+    font-weight: bold;
     padding-bottom: 1rem;
+    color: #0B3954;
 `;

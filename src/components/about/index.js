@@ -5,12 +5,13 @@ import {
     AboutH1,
     AboutBody,
     AboutP,
-    MobileAbout
+    MobileAbout,
 } from './aboutElements'
 
 const About = () => {
     return (
         <AboutContainer id="about">
+
             <AboutTextContainer>
                 <AboutH1>About Me!</AboutH1>
                 <AboutBody>
@@ -36,6 +37,7 @@ const About = () => {
                     egestas eget magna nec placerat. Pellentesque ut odio a tortor commodo blandit. Nunc placerat erat a orci egestas semper.
                 </AboutBody>
             </MobileAbout>
+
         </AboutContainer>
     )
 }

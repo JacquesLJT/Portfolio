@@ -26,7 +26,7 @@ export const NavLogo = styled.a`
     color: #fff;
     font-family: 'Exo 2', sans-serif;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 36px;
     text-decoration: none;
     font-weight: bold;
 `;
@@ -75,4 +75,8 @@ export const NavLink = styled(LinkS)`
     width: 100%;
     cursor: pointer;
     font-size: 20px;
+
+    &:hover {
+        border-bottom: 3px solid #fff;
+    }
 `;

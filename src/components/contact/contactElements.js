@@ -8,6 +8,12 @@ export const ContactContainer = styled.div`
     position: relative;
     z-index: 1;
 
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fbackground.jpeg?alt=media&token=b0b70b2b-d222-4365-ac02-1aa9573a5ced);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
     @media and screen (max-width: 768px) {
         display: block;
     }
