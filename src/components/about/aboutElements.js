@@ -5,9 +5,7 @@ export const AboutContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 30px;
-    //height: 400px;
     position: relative;
-    z-index: 1;
 
     background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fbackground.jpeg?alt=media&token=b0b70b2b-d222-4365-ac02-1aa9573a5ced);
     background-size: cover;
@@ -15,10 +13,6 @@ export const AboutContainer = styled.div`
     background-position: center;
     background-attachment: fixed;
 
-    @media screen and (max-width: 768px) {
-        display: flex;
-        padding: 0 24px;
-    }
 `;
 
 export const AboutTextContainer = styled.div`

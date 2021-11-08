@@ -20,8 +20,9 @@ export const SkillsContainer = styled.div`
 `;
 
 export const SkillsTextContainer = styled.div`
-    border-radius: 25px;
+    width: 80%;
     padding: 30px;
+    border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
 `;
 

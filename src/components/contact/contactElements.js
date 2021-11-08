@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    display: block;
-    justify-content: space-between;
-    background: #CFD6EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
-    position: relative;
-    z-index: 1;
 
     background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fbackground.jpeg?alt=media&token=b0b70b2b-d222-4365-ac02-1aa9573a5ced);
     background-size: cover;
@@ -14,24 +12,27 @@ export const ContactContainer = styled.div`
     background-position: center;
     background-attachment: fixed;
 
-    @media and screen (max-width: 768px) {
-        display: block;
-    }
 `;
 
-export const ContactTitle = styled.h1`
-    margin: 0;
+export const ContactTextContainer = styled.div`
+    width: 80%;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+`;
+
+export const ContactH1 = styled.h1`
+    display: flex;
+    justify-content: center;
     font-size: 48px;
     color: #D36060;
-    z-index: 1;
     width: 100%;
-    text-align: left;
 `;
 
 export const ItemWrapper = styled.div`
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media and screen (max-width: 768px) {
         display: block;
@@ -39,8 +40,8 @@ export const ItemWrapper = styled.div`
 `;
 
 export const ContactLink = styled.a`
-    width: 50%;
     padding: 20px;
+    margin: 20px;
     border-radius: 10px;
     border: 5px solid #fff;
     background: #D36060;

@@ -4,6 +4,7 @@ import {
     ExperienceH1,
     ExperienceTextContainer,
     ExperienceElement,
+    ExperienceElementBody,
     ExperienceTitle,
     ExperienceLocation,
     ExperienceDates,
@@ -16,7 +17,9 @@ const Experience = () => {
         <ExperienceContainer id="experience">
             <ExperienceTextContainer>
                 <ExperienceH1>Experience</ExperienceH1>
+
                 <ExperienceElement>
+                    <ExperienceElementBody>
                     <ExperienceTitle>Greenhouse Retail Sales</ExperienceTitle>
                     <ExperienceLocation>Estabrook's, Yarmouth, ME</ExperienceLocation>
                     <ExperienceDates>May 2021 - August 2021</ExperienceDates>
@@ -25,9 +28,11 @@ const Experience = () => {
                         <ExperienceItems>Kept the greenhouses stocked and clean</ExperienceItems>
                         <ExperienceItems>Resolved questions from customers</ExperienceItems>
                     </ExperienceDescription>
+                    </ExperienceElementBody>
                 </ExperienceElement>
 
                 <ExperienceElement>
+                    <ExperienceElementBody>
                     <ExperienceTitle>General Merchandise Team Member</ExperienceTitle>
                     <ExperienceLocation>Target, Topsham, ME</ExperienceLocation>
                     <ExperienceDates>September 2017 - January 2021</ExperienceDates>
@@ -36,7 +41,9 @@ const Experience = () => {
                         <ExperienceItems>Kept shelves stocked and organized to maintain a high standard of quality</ExperienceItems>
                         <ExperienceItems>Resolved questions from customers</ExperienceItems>
                     </ExperienceDescription>
+                    </ExperienceElementBody>
                 </ExperienceElement>
+
             </ExperienceTextContainer>
         </ExperienceContainer>
     )

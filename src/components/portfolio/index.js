@@ -1,6 +1,7 @@
 import React from 'react'
 import {
     PortfolioContainer,
+    PortfolioTextContainer,
     PortfolioH1,
     PortfolioElement,
     PortfolioElementBody,
@@ -12,7 +13,7 @@ import {
 const Portfolio = () => {
     return (
         <PortfolioContainer id="portfolio">
-        
+        <PortfolioTextContainer>
             <PortfolioH1>Portfolio</PortfolioH1>
             
             <PortfolioElement>
@@ -21,7 +22,7 @@ const Portfolio = () => {
                     <PortfolioElementDescription>
                         Content coming soon
                     </PortfolioElementDescription>
-                    <PortfolioImage></PortfolioImage>
+                    <PortfolioImage src=""></PortfolioImage>
                 </PortfolioElementBody>
             </PortfolioElement>
 
@@ -31,9 +32,11 @@ const Portfolio = () => {
                     <PortfolioElementDescription>
                         Content coming soon
                     </PortfolioElementDescription>
-                    <PortfolioImage></PortfolioImage>
+                    <PortfolioImage src=""></PortfolioImage>
                 </PortfolioElementBody>
             </PortfolioElement>
+            
+        </PortfolioTextContainer>
         </PortfolioContainer>
     )
 }
