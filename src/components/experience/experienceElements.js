@@ -16,14 +16,20 @@ export const ExperienceContainer = styled.div`
 `;
 
 export const ExperienceTextContainer = styled.div`
-    width: 80%;
+    width: 60%;
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
 `;
 
-export const ExperienceElement = styled.div`
+export const ExperienceElementWrapper = styled.div`
     display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const ExperienceElement = styled.div`
+    display: inline-block;
     justify-content: center;
     align-items: center;
 `;

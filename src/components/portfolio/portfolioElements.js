@@ -11,14 +11,14 @@ export const PortfolioContainer = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-
 `;
 
 export const PortfolioTextContainer = styled.div`
-    width: 80%;
+    position: relative;
+    width: 60%;
     padding: 30px;
-    border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
 `;
 
 export const PortfolioH1 = styled.h1`
@@ -28,30 +28,38 @@ export const PortfolioH1 = styled.h1`
     color: #D36060;
 `;
 
-export const PortfolioElement = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
+export const PortfolioElementWrapper = styled.div``;
 
-export const PortfolioElementBody = styled.div`
-    border: 3px solid #fff;
-    background-color: #D36060;
-    border-radius: 10px;
+export const PortfolioElement = styled.div`
     padding: 30px;
-    margin: 30px;
+    border-bottom: 3px dashed #0B3954;
 `;
 
 export const PortfolioElementTitle = styled.h2`
     display: flex;
     justify-content: center;
-    color: #fff;
+    font-size: 36px;
+    color: #D36060;
+    padding-bottom: 10px;
+`;
+
+export const PortfolioElementBody = styled.div`
+    display: flex;
+    align-items: center;
+`;
+
+export const PortfolioImage = styled.img`
+    aspect-ratio: 1:1;
+    width: 50%;
 `;
 
 export const PortfolioElementDescription = styled.p`
-    display: flex;
-    justify-content: center;
-    color: #fff;
+    width: 50%;
+    font-size: 20px;
+    color: #0B3954;
+    padding-left: 10px;
 `;
 
-export const PortfolioImage = styled.img``;
+export const Space = styled.div`
+    height: 10px;
+`;

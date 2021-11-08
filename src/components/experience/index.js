@@ -4,6 +4,7 @@ import {
     ExperienceH1,
     ExperienceTextContainer,
     ExperienceElement,
+    ExperienceElementWrapper,
     ExperienceElementBody,
     ExperienceTitle,
     ExperienceLocation,
@@ -18,6 +19,7 @@ const Experience = () => {
             <ExperienceTextContainer>
                 <ExperienceH1>Experience</ExperienceH1>
 
+                <ExperienceElementWrapper>
                 <ExperienceElement>
                     <ExperienceElementBody>
                     <ExperienceTitle>Greenhouse Retail Sales</ExperienceTitle>
@@ -43,6 +45,7 @@ const Experience = () => {
                     </ExperienceDescription>
                     </ExperienceElementBody>
                 </ExperienceElement>
+                </ExperienceElementWrapper>
 
             </ExperienceTextContainer>
         </ExperienceContainer>

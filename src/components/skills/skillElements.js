@@ -20,7 +20,7 @@ export const SkillsContainer = styled.div`
 `;
 
 export const SkillsTextContainer = styled.div`
-    width: 80%;
+    width: 60%;
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
