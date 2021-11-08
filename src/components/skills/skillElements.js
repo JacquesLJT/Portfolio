@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const SkillsContainer = styled.div`
     background: #0B3954;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
     position: relative;
 
@@ -20,13 +20,16 @@ export const SkillsContainer = styled.div`
 `;
 
 export const SkillsTextContainer = styled.div`
-    display: block;
-    position: relative;
+    border-radius: 25px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
 `;
 
 export const SkillsTitle = styled.h1`
-    color: #fff;
+    color: #D36060;
     font-size: 48px;
+    display: flex;
+    justify-content: center;
 `;
 
 export const LanguageSkills = styled.div``;
@@ -34,12 +37,16 @@ export const LanguageSkills = styled.div``;
 export const SoftwareSkills = styled.div``;
 
 export const Skillsh2 = styled.h2`
-    color: #fff;
+    color: #D36060;
     font-size: 24px;
+    display: flex;
+    justify-content: center;
 `;
 
 export const SkillList = styled.ul`
     list-style: none;
+    display: flex;
+    justify-content: center;
 `;
 
 export const ListItem = styled.li`

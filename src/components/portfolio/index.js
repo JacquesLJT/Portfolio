@@ -1,32 +1,39 @@
 import React from 'react'
 import {
     PortfolioContainer,
+    PortfolioH1,
     PortfolioElement,
-    PortfolioHeader,
-    PortfolioBody,
+    PortfolioElementBody,
     PortfolioElementTitle,
-    PortfolioElementDescription
+    PortfolioElementDescription,
+    PortfolioImage
 } from './portfolioElements'
 
 const Portfolio = () => {
     return (
         <PortfolioContainer id="portfolio">
-
-            <PortfolioHeader>Portfolio</PortfolioHeader>
-
-            <PortfolioBody>
-
-                <PortfolioElement>
-                    <PortfolioElementTitle>Personal Website</PortfolioElementTitle>
-                    <PortfolioElementDescription>Content Coming Soon</PortfolioElementDescription>
-                </PortfolioElement>
-
-                <PortfolioElement>
-                    <PortfolioElementTitle>Crypocurrency White Paper</PortfolioElementTitle>
-                    <PortfolioElementDescription>Content Coming Soon</PortfolioElementDescription>
-                </PortfolioElement>
+        
+            <PortfolioH1>Portfolio</PortfolioH1>
             
-            </PortfolioBody>
+            <PortfolioElement>
+                <PortfolioElementBody>
+                    <PortfolioElementTitle>Personal Website</PortfolioElementTitle>
+                    <PortfolioElementDescription>
+                        Content coming soon
+                    </PortfolioElementDescription>
+                    <PortfolioImage></PortfolioImage>
+                </PortfolioElementBody>
+            </PortfolioElement>
+
+            <PortfolioElement>
+                <PortfolioElementBody>
+                    <PortfolioElementTitle>Cryptocurency White Paper</PortfolioElementTitle>
+                    <PortfolioElementDescription>
+                        Content coming soon
+                    </PortfolioElementDescription>
+                    <PortfolioImage></PortfolioImage>
+                </PortfolioElementBody>
+            </PortfolioElement>
         </PortfolioContainer>
     )
 }

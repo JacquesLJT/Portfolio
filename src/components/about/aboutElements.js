@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
     //height: 400px;
     position: relative;
@@ -22,7 +22,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutTextContainer = styled.div`
-    width: 50%;
+    width: 80%;
     position: relative;
     display: block;
     color: #fff;
@@ -39,6 +39,8 @@ export const AboutH1 = styled.h1`
     color: #D36060;
     font-size: 48px;
     position: relative;
+    display: flex;
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         margin: 0 auto;
