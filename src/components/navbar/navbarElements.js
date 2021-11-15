@@ -21,6 +21,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 80px;
     z-index: 1;
     width: 100%;
@@ -98,20 +99,24 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 80px;
-    width: 130px;
+    width: 140px;
     text-align: center;
 `;
 
 export const NavLink = styled(LinkS)`
     color: #fff;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     height: 100%;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 24px;
 
     &:hover {
         border-bottom: 3px solid #fff;

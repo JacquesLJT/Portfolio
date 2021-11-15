@@ -26,8 +26,8 @@ export const PortfolioTextContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         width: 100%;
-        padding: 10px;
         border-radius: 0;
+        padding: 10px;
     }
 `;
 
@@ -43,6 +43,9 @@ export const PortfolioElementWrapper = styled.div``;
 export const PortfolioElement = styled.div`
     padding: 30px;
     border-bottom: 3px dashed #0B3954;
+
+    @media screen and (max-width: 768px) {
+    }
 `;
 
 export const PortfolioElementTitle = styled.h2`
@@ -51,16 +54,32 @@ export const PortfolioElementTitle = styled.h2`
     font-size: 36px;
     color: #D36060;
     padding-bottom: 10px;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 `;
 
 export const PortfolioElementBody = styled.div`
     display: flex;
-    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+    }
 `;
 
 export const PortfolioImage = styled.img`
     aspect-ratio: 1:1;
     width: 50%;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        aspect-ratio: 1:1;
+    }
 `;
 
 export const PortfolioElementDescription = styled.p`
@@ -68,6 +87,12 @@ export const PortfolioElementDescription = styled.p`
     font-size: 20px;
     color: #0B3954;
     padding-left: 10px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
 `;
 
 export const Space = styled.div`
