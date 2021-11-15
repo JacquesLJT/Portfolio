@@ -11,6 +11,10 @@ export const PortfolioContainer = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const PortfolioTextContainer = styled.div`
@@ -19,6 +23,12 @@ export const PortfolioTextContainer = styled.div`
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
+    }
 `;
 
 export const PortfolioH1 = styled.h1`

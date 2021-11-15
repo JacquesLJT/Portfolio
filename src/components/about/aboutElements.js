@@ -13,6 +13,9 @@ export const AboutContainer = styled.div`
     background-position: center;
     background-attachment: fixed;
 
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const AboutTextContainer = styled.div`
@@ -25,7 +28,8 @@ export const AboutTextContainer = styled.div`
     background-color: rgba(255, 255, 255, 0.7);
 
     @media screen and (max-width: 768px) {
-        display: none;
+        width: 100%;
+        border-radius: 0px;
     }
 `;
 
@@ -37,34 +41,28 @@ export const AboutH1 = styled.h1`
     justify-content: center;
 
     @media screen and (max-width: 768px) {
-        margin: 0 auto;
-        padding-top: 4rem;
-        width: 100%;
-        display: block;
-        text-align: center;
+        dissplay: flex;
+        justify-content: center;
+        font-size: 36px;
     }
 `;
 
 export const AboutBody = styled.div`
-    padding-top: 1rem;
+    padding: 30px;
 
     @media screen and (max-width: 768px) {
-        padding-bottom: 4rem;
-    }
-`;
-
-export const MobileAbout = styled.div`
-    display: none;
-
-    @media screen and (max-width: 768px) {
-        display: block;
+        padding: 10px;
     }
 `;
 
 export const AboutP = styled.p`
-    color: #0B3954;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 1rem;
     color: #0B3954;
+
+    @media screen and (max-width: 768px) {
+        text-align: center;
+        color: #0B3954;
+        font-size: 24px;
 `;

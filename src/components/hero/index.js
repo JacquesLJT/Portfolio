@@ -2,7 +2,8 @@ import React from 'react'
 import { 
         HeroContainer,
         HeroTextContainer,
-        HeroH1, 
+        HeroH1,
+        MobileImage,
         HeroBody,
         HeroP, 
         LinkOut, 
@@ -16,6 +17,7 @@ const Hero = () => {
             
             <HeroTextContainer>
                 <HeroH1>Hey, I'm Landon!</HeroH1>
+                <MobileImage src='https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fprofile.jpeg?alt=media&token=6954e6cd-d7b3-4343-9e21-f5642105141d' alt="Picture of Landon Thibodeau"></MobileImage> 
                 <HeroBody>
             
                     <HeroP>

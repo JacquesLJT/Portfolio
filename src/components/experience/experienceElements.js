@@ -13,6 +13,9 @@ export const ExperienceContainer = styled.div`
     background-position: center;
     background-attachment: fixed;
     
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const ExperienceTextContainer = styled.div`
@@ -20,18 +23,24 @@ export const ExperienceTextContainer = styled.div`
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
 `;
 
 export const ExperienceElementWrapper = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 `;
 
 export const ExperienceElement = styled.div`
-    display: inline-block;
+    display: flex;
     justify-content: center;
-    align-items: center;
 `;
 
 export const ExperienceElementBody = styled.div`

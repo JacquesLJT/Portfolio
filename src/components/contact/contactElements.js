@@ -12,6 +12,9 @@ export const ContactContainer = styled.div`
     background-position: center;
     background-attachment: fixed;
 
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const ContactTextContainer = styled.div`
@@ -19,6 +22,12 @@ export const ContactTextContainer = styled.div`
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
+    }
 `;
 
 export const ContactH1 = styled.h1`

@@ -3,6 +3,9 @@ import {FaBars} from 'react-icons/fa';
 import { 
     Nav,
     NavbarContainer,
+    MobileWrapper,
+    MobileLogoContainer,
+    MobileLogo,
     NavLogo,
     NavMenu,
     NavItem,
@@ -15,9 +18,14 @@ const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <MobileIcon onClick={toggle}>
-                        <FaBars />
-                    </MobileIcon> 
+                    <MobileWrapper>
+                        <MobileLogoContainer>
+                            <MobileLogo href='/'>Landon Thibodeau</MobileLogo>
+                        </MobileLogoContainer>
+                        <MobileIcon onClick={toggle}>
+                            <FaBars />
+                        </MobileIcon> 
+                    </MobileWrapper>
                     <NavMenu>
                         <NavItem>
                             <NavLink to='home' offset={-80} smooth={true} duration={1000}>Home</NavLink>

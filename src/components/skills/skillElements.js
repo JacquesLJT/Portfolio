@@ -15,7 +15,7 @@ export const SkillsContainer = styled.div`
     background-attachment: fixed;
 
     @media screen and (max-width: 768px) {
-        display: flex;
+        padding: 0;
     }
 `;
 
@@ -24,6 +24,14 @@ export const SkillsTextContainer = styled.div`
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
+    display: block;
+    position: relative;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
 `;
 
 export const SkillsTitle = styled.h1`
@@ -48,6 +56,7 @@ export const SkillList = styled.ul`
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 `;
 
 export const ListItem = styled.li`

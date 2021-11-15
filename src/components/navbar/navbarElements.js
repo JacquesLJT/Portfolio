@@ -5,13 +5,17 @@ export const Nav = styled.nav`
     background: #D36060;
     height: 80px;
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    font-size: 2rem;
+    font-size: 1rem;
     top: 0;
     z-index: 10;
+
+    @media screen and (max-width: 960px) {
+        
+    }
 `;
 
 export const NavbarContainer = styled.div`
@@ -20,6 +24,42 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
+
+    @media screen and (max-width: 768px) {
+        padding: 0 20px;
+        margin: 0;
+    }
+`;
+
+export const MobileWrapper = styled.div`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+`;
+
+export const MobileLogoContainer = styled.div`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+`;
+
+export const MobileLogo = styled.a`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: 'Exo 2', sans-serif;
+    }
 `;
 
 export const NavLogo = styled.a`
@@ -35,13 +75,11 @@ export const MobileIcon = styled.div`
     display: none;
 
     @media screen and (max-width: 768px) {
-        display: block;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
         cursor: pointer;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
+        height: min-content;
         color: #fff;
     }
 `;
@@ -52,7 +90,6 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    width: 100%;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -72,7 +109,6 @@ export const NavLink = styled(LinkS)`
     align-items: center;
     text-decoration: none;
     height: 100%;
-    width: 100%;
     cursor: pointer;
     font-size: 20px;
 
