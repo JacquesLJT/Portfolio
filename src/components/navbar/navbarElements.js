@@ -104,14 +104,13 @@ export const NavItem = styled.li`
     justify-content: center;
     height: 80px;
     width: 140px;
-    text-align: center;
 `;
 
 export const NavLink = styled(LinkS)`
     color: #fff;
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: center;; 
     align-items: center;
     text-decoration: none;
     height: 100%;
