@@ -28,6 +28,7 @@ export const HeroTextContainer = styled.div`
     padding: 30px;
     background-color: rgba(255, 255, 255, .7);
     border-radius: 25px;
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -53,6 +54,7 @@ export const HeroH1 = styled.h1`
 
 export const MobileImage = styled.img`
     display: none;
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         display: block;
@@ -123,6 +125,7 @@ export const HeroImage = styled.img`
     border: 5px solid #fff;
     align-items: left;
     position: relative;
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         display: none;

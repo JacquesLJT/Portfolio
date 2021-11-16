@@ -23,6 +23,7 @@ export const ExperienceTextContainer = styled.div`
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -49,6 +50,7 @@ export const ExperienceElementBody = styled.div`
     background-color: #D36060;
     padding: 30px;
     margin: 30px;
+    box-shadow: 12px 12px 10px #0B3954;
 `;
 
 export const ExperienceH1 = styled.h1`

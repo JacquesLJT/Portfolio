@@ -12,6 +12,7 @@ export const Nav = styled.nav`
     font-size: 1rem;
     top: 0;
     z-index: 10;
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 960px) {
         

@@ -23,6 +23,7 @@ export const PortfolioTextContainer = styled.div`
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -82,6 +83,7 @@ export const PortfolioImage = styled.img`
     width: 100%;
     height: auto;
     aspect-ratio: 1:1;
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -94,7 +96,7 @@ export const PortfolioElementDescription = styled.p`
     width: 50%;
     font-size: 20px;
     color: #0B3954;
-    padding-left: 10px;
+    padding-left: 20px;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -117,7 +119,7 @@ export const ButtomContainer = styled.div`
 export const PortfolioButton = styled.button`
     display: flex;
     height: 100px;
-    width: 200px;
+    width: 250px;
     font-size: 24px;
     color: #fff;
     justify-content: center;
@@ -126,8 +128,11 @@ export const PortfolioButton = styled.button`
     background-color: #D36060;
     border: 3px solid #fff;
     border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 12px 12px 10px #0B3954;
+    text-decoration: underline;
 
     &:hover {
-        opacity: 0.9;
+        opacity: 0.8;
     }
 `;

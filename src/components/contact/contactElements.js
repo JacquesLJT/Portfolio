@@ -22,6 +22,7 @@ export const ContactTextContainer = styled.div`
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -58,6 +59,8 @@ export const ContactLink = styled.a`
     cursor: pointer;
     color: #fff;
     transition: all 0.2s ease-in-out;
+    box-shadow: 12px 12px 10px #0B3954;
+    text-decoration: underline;
 
     &:hover {
         opacity: 0.8;

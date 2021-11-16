@@ -26,6 +26,7 @@ export const AboutTextContainer = styled.div`
     border-radius: 25px;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
         width: 100%;
