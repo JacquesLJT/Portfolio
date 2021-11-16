@@ -71,9 +71,17 @@ export const PortfolioElementBody = styled.div`
     }
 `;
 
-export const PortfolioImage = styled.img`
-    aspect-ratio: 1:1;
+export const PortfolioImageContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     width: 50%;
+`;
+
+export const PortfolioImage = styled.img`
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1:1;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -97,4 +105,29 @@ export const PortfolioElementDescription = styled.p`
 
 export const Space = styled.div`
     height: 10px;
+`;
+
+export const ButtomContainer = styled.div`
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const PortfolioButton = styled.button`
+    display: flex;
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    background-color: #D36060;
+    border: 3px solid #fff;
+    border-radius: 10px;
+
+    &:hover {
+        opacity: 0.9;
+    }
 `;

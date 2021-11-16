@@ -15,7 +15,6 @@ import {
 
 const Navbar = ({toggle}) => {
     return (
-        <>
             <Nav>
                 <NavbarContainer>
                     <MobileWrapper>
@@ -49,7 +48,6 @@ const Navbar = ({toggle}) => {
                     </NavMenu>   
                 </NavbarContainer>
             </Nav>
-        </>
     );
 };
 

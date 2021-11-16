@@ -8,8 +8,11 @@ import {
     PortfolioElementBody,
     PortfolioElementTitle,
     PortfolioElementDescription,
+    PortfolioImageContainer,
     PortfolioImage,
-    Space
+    Space,
+    PortfolioButton,
+    ButtomContainer
 } from './portfolioElements'
 
 const Portfolio = () => {
@@ -22,7 +25,9 @@ const Portfolio = () => {
             <PortfolioElement>
             <PortfolioElementTitle>Personal Website</PortfolioElementTitle>
                 <PortfolioElementBody>
-                    <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fwebsite.jpeg?alt=media&token=4fbd3633-f583-447b-9689-0a5abcc2745d"></PortfolioImage>
+                    <PortfolioImageContainer>
+                        <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fwebsite.jpeg?alt=media&token=4fbd3633-f583-447b-9689-0a5abcc2745d"></PortfolioImage>
+                    </PortfolioImageContainer>
                     <PortfolioElementDescription>
                         Before building this website, I wanted something that would best set me apart from other students and job applicants. 
                         I thought the best way for me to accomplish that was to build a website that would be a showcase for my skills and talents.
@@ -39,11 +44,17 @@ const Portfolio = () => {
             <PortfolioElement>
             <PortfolioElementTitle>Crypocurrency White Paper</PortfolioElementTitle>
                 <PortfolioElementBody>
-                    <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fimage-coming-soon-placeholder.png?alt=media&token=6138fc06-682a-41f5-8e34-0e04c4298aae"></PortfolioImage>
+                    <PortfolioImageContainer>
+                        <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2Fimage-coming-soon-placeholder.png?alt=media&token=6138fc06-682a-41f5-8e34-0e04c4298aae"></PortfolioImage>
+                    </PortfolioImageContainer>
                     <PortfolioElementDescription>
                         Description Coming Soon
                     </PortfolioElementDescription>
                 </PortfolioElementBody>
+                <ButtomContainer>
+                    <PortfolioButton>View Proposal</PortfolioButton>
+                    <PortfolioButton>View Paper</PortfolioButton>
+                </ButtomContainer>
             </PortfolioElement>
             </PortfolioElementWrapper>
 

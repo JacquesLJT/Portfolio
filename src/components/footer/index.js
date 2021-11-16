@@ -17,7 +17,7 @@ import {
 
 const Footer = () => {
     return (
-        <>
+        <div>
         <FooterContainer>
             <FooterColumn>
                 <FooterLogo>Landon Thibodeau</FooterLogo>
@@ -58,7 +58,7 @@ const Footer = () => {
         <FooterRibbon>
             Site by Landon Thibodeau | © 2021 | <FooterRibbonLink href="https://github.com/JacquesLJT/Portfolio" target="_blank" alt="GitHub Repo">GitHub Repo</FooterRibbonLink>
         </FooterRibbon>
-        </>
+        </div>
     )
 }
 

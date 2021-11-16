@@ -17,7 +17,7 @@ const Home = () => {
     }
 
     return (
-        <>
+        <div>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
 
@@ -40,7 +40,7 @@ const Home = () => {
             <Contact id="contact" />
 
             <Footer id="footer" />
-        </>
+        </div>
     )
 }
 

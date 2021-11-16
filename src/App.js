@@ -5,7 +5,6 @@ import Home from './pages';
 
 function App() {
   return (
-    <>
     <Router>
       <Switch>
         <Route path="/" exact component={Home}></Route>
@@ -13,7 +12,6 @@ function App() {
         <Route render={() => <h1>404: Page not found</h1>}></Route>
       </Switch>
     </Router>
-    </>
   );
 }
 
