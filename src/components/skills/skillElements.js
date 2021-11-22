@@ -20,7 +20,7 @@ export const SkillsContainer = styled.div`
 `;
 
 export const SkillsTextContainer = styled.div`
-    width: 60%;
+    width: 70%;
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -66,7 +66,9 @@ export const ListItem = styled.li`
     background: #D36060;
     padding: 10px;
     margin: 5px;
-    border: 3px solid #fff;
+    border: 4px solid #0B3954;
     border-radius: 10px;
-    box-shadow: 12px 12px 10px #0B3954;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    //box-shadow: 12px 12px 10px #0B3954;
 `;

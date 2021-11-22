@@ -24,7 +24,7 @@ export const HeroContainer = styled.div`
 
 export const HeroTextContainer = styled.div`
     position: relative;
-    width: 60%;
+    width: 70%;
     padding: 30px;
     background-color: rgba(255, 255, 255, .7);
     border-radius: 25px;

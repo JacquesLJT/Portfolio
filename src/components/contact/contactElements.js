@@ -18,7 +18,7 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactTextContainer = styled.div`
-    width: 60%;
+    width: 70%;
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -41,6 +41,7 @@ export const ContactH1 = styled.h1`
 
 export const ItemWrapper = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -50,17 +51,21 @@ export const ItemWrapper = styled.div`
 `;
 
 export const ContactLink = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 20px;
+    min-height: 30px;
+    min-width: 400px;
     border-radius: 10px;
-    border: 5px solid #fff;
+    border: 5px solid #0B3954;
     background: #D36060;
     font-size: 24px;
     cursor: pointer;
     color: #fff;
     transition: all 0.2s ease-in-out;
-    box-shadow: 12px 12px 10px #0B3954;
-    text-decoration: underline;
+    //box-shadow: 12px 12px 10px #0B3954;
 
     &:hover {
         opacity: 0.8;

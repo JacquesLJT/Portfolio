@@ -2,9 +2,9 @@ import React from 'react'
 import {
     ExperienceContainer,
     ExperienceH1,
+    ExperienceElementWrapper,
     ExperienceTextContainer,
     ExperienceElement,
-    ExperienceElementWrapper,
     ExperienceElementBody,
     ExperienceTitle,
     ExperienceLocation,
@@ -17,9 +17,11 @@ const Experience = () => {
     return (
         <ExperienceContainer id="experience">
             <ExperienceTextContainer>
+
                 <ExperienceH1>Experience</ExperienceH1>
 
                 <ExperienceElementWrapper>
+
                 <ExperienceElement>
                     <ExperienceElementBody>
                     <ExperienceTitle>Greenhouse Retail Sales</ExperienceTitle>
@@ -45,6 +47,7 @@ const Experience = () => {
                     </ExperienceDescription>
                     </ExperienceElementBody>
                 </ExperienceElement>
+
                 </ExperienceElementWrapper>
 
             </ExperienceTextContainer>

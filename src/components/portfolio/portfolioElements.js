@@ -19,9 +19,9 @@ export const PortfolioContainer = styled.div`
 
 export const PortfolioTextContainer = styled.div`
     position: relative;
-    width: 60%;
+    width: 70%;
     padding: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, .8);
     border-radius: 25px;
     box-shadow: 12px 12px 10px #0B3954;
 
@@ -37,12 +37,14 @@ export const PortfolioH1 = styled.h1`
     justify-content: center;
     font-size: 48px;
     color: #D36060;
+    padding-bottom: 10px;
+    border-bottom: 3px dashed #0B3954;
 `;
 
 export const PortfolioElementWrapper = styled.div``;
 
 export const PortfolioElement = styled.div`
-    padding: 30px;
+    padding: 20px;
     border-bottom: 3px dashed #0B3954;
 
     @media screen and (max-width: 768px) {
@@ -54,7 +56,7 @@ export const PortfolioElementTitle = styled.h2`
     justify-content: center;
     font-size: 36px;
     color: #D36060;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
     @media screen and (max-width: 768px) {
         display: flex;
@@ -74,9 +76,11 @@ export const PortfolioElementBody = styled.div`
 
 export const PortfolioImageContainer = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     width: 50%;
+    padding-right: 10px;
 `;
 
 export const PortfolioImage = styled.img`
@@ -84,6 +88,7 @@ export const PortfolioImage = styled.img`
     height: auto;
     aspect-ratio: 1:1;
     box-shadow: 12px 12px 10px #0B3954;
+    margin-bottom: 20px;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -95,8 +100,9 @@ export const PortfolioImage = styled.img`
 export const PortfolioElementDescription = styled.p`
     width: 50%;
     font-size: 20px;
+    font-weight: 800;
     color: #0B3954;
-    padding-left: 20px;
+    padding-left: 30px;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -105,8 +111,14 @@ export const PortfolioElementDescription = styled.p`
     }
 `;
 
+export const Subtitle = styled.h2`
+    text-align: center;
+    color: #D36060;
+    padding: 20px;
+`;
+
 export const Space = styled.div`
-    height: 10px;
+    height: 30px;
 `;
 
 export const ButtomContainer = styled.div`
@@ -118,7 +130,7 @@ export const ButtomContainer = styled.div`
 
 export const PortfolioButton = styled.button`
     display: flex;
-    height: 100px;
+    height: 75px;
     width: 250px;
     font-size: 24px;
     color: #fff;
@@ -126,10 +138,10 @@ export const PortfolioButton = styled.button`
     align-items: center;
     margin: 15px;
     background-color: #D36060;
-    border: 3px solid #fff;
+    border: 5px solid #0B3954;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 12px 12px 10px #0B3954;
+    //box-shadow: 12px 12px 10px #0B3954;
     text-decoration: underline;
 
     &:hover {

@@ -19,7 +19,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutTextContainer = styled.div`
-    width: 60%;
+    width: 70%;
     position: relative;
     display: block;
     color: #fff;

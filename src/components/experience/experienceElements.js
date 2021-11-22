@@ -19,7 +19,7 @@ export const ExperienceContainer = styled.div`
 `;
 
 export const ExperienceTextContainer = styled.div`
-    width: 60%;
+    width: 70%;
     padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -32,31 +32,32 @@ export const ExperienceTextContainer = styled.div`
     }
 `;
 
-export const ExperienceElementWrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-`;
-
 export const ExperienceElement = styled.div`
     display: flex;
     justify-content: center;
+    min-width: 600px;
+    border: 5px solid #0B3954;
+    border-radius: 10px;
+    background-color: #D36060;
+    //box-shadow: 12px 12px 10px #0B3954;
+    margin: 20px;
 `;
 
 export const ExperienceElementBody = styled.div`
-    border: 3px solid #fff;
-    border-radius: 10px;
-    background-color: #D36060;
-    padding: 30px;
-    margin: 30px;
-    box-shadow: 12px 12px 10px #0B3954;
+    margin: 20px;
 `;
 
 export const ExperienceH1 = styled.h1`
+    display: flex;
+    justify-content: center;
     font-size: 48px;
     color: #D36060;
+`;
+
+export const ExperienceElementWrapper = styled.div`
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 `;
 
@@ -82,8 +83,6 @@ export const ExperienceDates = styled.h3`
 `;
 
 export const ExperienceDescription = styled.ul`
-    display: block;
-    justify-content: center;
     padding-top: 10px;
 `;
 
