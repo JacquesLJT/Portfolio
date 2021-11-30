@@ -15,7 +15,7 @@ export const Nav = styled.nav`
     box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 960px) {
-        
+        box-shadow: 0px 12px 10px #0B3954;
     }
 `;
 
@@ -72,6 +72,7 @@ export const NavLogo = styled.a`
     font-size: 36px;
     text-decoration: none;
     font-weight: bold;
+    min-width: 320px;
 `;
 
 export const MobileIcon = styled.div`
@@ -104,7 +105,7 @@ export const NavItem = styled.li`
     align-items: center;
     justify-content: center;
     height: 80px;
-    width: 140px;
+    width: 130px;
 `;
 
 export const NavLink = styled(LinkS)`

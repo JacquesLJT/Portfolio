@@ -23,7 +23,7 @@ export const SkillsTextContainer = styled.div`
     width: 70%;
     padding: 30px;
     border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     display: block;
     position: relative;
     box-shadow: 12px 12px 10px #0B3954;

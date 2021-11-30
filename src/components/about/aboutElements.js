@@ -25,7 +25,7 @@ export const AboutTextContainer = styled.div`
     color: #fff;
     border-radius: 25px;
     padding: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 12px 12px 10px #0B3954;
 
     @media screen and (max-width: 768px) {
@@ -66,4 +66,8 @@ export const AboutP = styled.p`
         text-align: center;
         color: #0B3954;
         font-size: 24px;
+`;
+
+export const Space = styled.div`
+        padding: 10px;
 `;

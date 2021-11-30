@@ -29,6 +29,7 @@ export const ExperienceTextContainer = styled.div`
         width: 100%;
         border-radius: 0;
         padding: 10px;
+        box-shadow: none;
     }
 `;
 

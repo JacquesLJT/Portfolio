@@ -128,7 +128,7 @@ export const ButtomContainer = styled.div`
     align-items: center;
 `;
 
-export const PortfolioButton = styled.button`
+export const PortfolioButton = styled.a`
     display: flex;
     height: 75px;
     width: 250px;

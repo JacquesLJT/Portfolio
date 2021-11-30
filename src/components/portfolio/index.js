@@ -46,10 +46,6 @@ const Portfolio = () => {
             <PortfolioElement>
             <PortfolioElementTitle>Crypocurrency White Paper</PortfolioElementTitle>
                 <PortfolioElementBody>
-                    <PortfolioImageContainer>
-                        <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2FResearch%20Proposal.jpg?alt=media&token=ee14bc24-d2b7-4fae-986c-097e46566b29"></PortfolioImage>
-                        <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2FCryptocurrency%20white%20paper.jpg?alt=media&token=88f38d3d-c84d-4bc0-a77e-de891ae08758"></PortfolioImage>
-                    </PortfolioImageContainer>
                     <PortfolioElementDescription>
                         <Subtitle>Proposal</Subtitle>
                             During the first semester of my Junior year of college, I took a course called Business and Technical Writing. One of the units for that course
@@ -64,14 +60,20 @@ const Portfolio = () => {
                             <Space />
                             At the bottom of this element is a link to the research proposal and to the final white paper.
                         <Subtitle>White Paper</Subtitle>
-                            For the final white paper, I further explored the idea of using cryptocurrencies as a means to pay remittances. I explained what cryptocurrencies are and both how they are both
-                            beneficial and what some of their disadvantages are. I took a look at what remittances are and the traditional ways that remittances are payed. Finally, I discussed how
+                            For the final white paper, I further explored the idea of using cryptocurrencies as a means to pay remittances. I explained what cryptocurrencies are and discussed both their
+                            advantages and disadvantages. I took a look at what remittances are and the traditional ways that remittances are payed. Finally, I discussed how
                             cryptocurrencies can aid in the sending of remittances back home. 
+                            <Space />
+                            The final paper can be viewed below
                     </PortfolioElementDescription>
+                    <PortfolioImageContainer>
+                        <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2FResearch%20Proposal.jpg?alt=media&token=ee14bc24-d2b7-4fae-986c-097e46566b29"></PortfolioImage>
+                        <PortfolioImage src="https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2FCryptocurrency%20white%20paper.jpg?alt=media&token=88f38d3d-c84d-4bc0-a77e-de891ae08758"></PortfolioImage>
+                    </PortfolioImageContainer>
                 </PortfolioElementBody>
                 <ButtomContainer>
-                    <PortfolioButton>View Proposal</PortfolioButton>
-                    <PortfolioButton>View Paper</PortfolioButton>
+                    <PortfolioButton href="/proposal" target="_blank">View Proposal</PortfolioButton>
+                    <PortfolioButton href="/paper" target="_blank">View Paper</PortfolioButton>
                 </ButtomContainer>
             </PortfolioElement>
 

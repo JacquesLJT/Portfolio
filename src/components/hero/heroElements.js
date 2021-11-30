@@ -26,7 +26,7 @@ export const HeroTextContainer = styled.div`
     position: relative;
     width: 70%;
     padding: 30px;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .8);
     border-radius: 25px;
     box-shadow: 12px 12px 10px #0B3954;
 
