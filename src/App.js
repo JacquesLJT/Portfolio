@@ -11,6 +11,7 @@ function App() {
         <Route path="/resume"><ResumeDownload/></Route>
         <Route path="/proposal"><ViewProposal/></Route>
         <Route path="/paper"><ViewPaper/></Route>
+        <Route path="/projectreport"><ViewReport/></Route>
         <Route render={() => <h1>404: Page not found</h1>}></Route>
       </Switch>
     </Router>
@@ -30,6 +31,11 @@ function ViewProposal () {
 
 function ViewPaper () {
     window.location.href = "https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2FCryptocurrency%20white%20paper.pdf?alt=media&token=b58530e0-bf3f-44d0-a72c-566e39bc4367";
+    return <p>Redirecting...</p>
+}
+
+function ViewReport () {
+    window.location.href = "https://firebasestorage.googleapis.com/v0/b/portfolio-fdf27.appspot.com/o/web_assets%2FThibodeau_FinalReport.pdf?alt=media&token=44008f54-3d6a-47cd-b0df-f24ef709d963";
     return <p>Redirecting...</p>
 }
 

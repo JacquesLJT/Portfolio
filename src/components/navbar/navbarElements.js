@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     z-index: 10;
     box-shadow: 12px 12px 10px #0B3954;
 
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1200px) {
         box-shadow: 0px 12px 10px #0B3954;
     }
 `;
@@ -27,7 +27,7 @@ export const NavbarContainer = styled.div`
     z-index: 1;
     width: 100%;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         padding: 0 20px;
         margin: 0;
         justify-content: space-between;
@@ -37,7 +37,7 @@ export const NavbarContainer = styled.div`
 export const MobileWrapper = styled.div`
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -48,14 +48,14 @@ export const MobileWrapper = styled.div`
 export const MobileLogoContainer = styled.div`
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         display: flex;
 `;
 
 export const MobileLogo = styled.a`
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         display: flex;
         color: #fff;
         font-size: 1.5rem;
@@ -76,7 +76,7 @@ export const NavLogo = styled.a`
 export const MobileIcon = styled.div`
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         display: flex;
         align-items: center;
         font-size: 24px;
@@ -93,7 +93,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-align: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         display: none;
     }
 `;
@@ -123,5 +123,5 @@ export const NavLink = styled(LinkS)`
 `;
 
 export const SpecialNavItem = styled.li`
-    min-width: min-content;
+    width: 300px;
 `;

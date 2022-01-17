@@ -87,17 +87,19 @@ const Portfolio = () => {
                         One of the courses that I took to progress towards a minor in Computer Engineering was Sequential Logic Systems. 
                         This course taught me, on an introductory level, how to design sequential logic and implementing logic on Altera FPGAs.
                         <Space />
-                        As a final project in the course, we were tasked in groups of two to recreate the game of pong using Verilog and implemented on the FPGA. 
+                        As a final project in the course, we were tasked in groups of two to recreate the game of pong using Verilog and implement on the FPGA. 
                         We were provided with the modules resposible with correct output to a VGA monitor, as well as a demonstration on how to use the module, but we were
                         responsible for the rest of the functionality. 
                         <Space />
                         My role in the project was to design the play area of the game, draw the ball, and draw the paddles. 
                         I was also responsible for writting the logic to move the ball as well as for detecting collisions between the ball and the paddles, and between the ball and the edges of the play area.
+                        <Space />
+                        Below the final project report can be read as well as a link to the Github repository where the verilog code can be found.
                     </PortfolioElementDescription>
                 </PortfolioElementBody>
                 <ButtomContainer>
                     <PortfolioButton href="/projectreport" target="_blank">View Project report</PortfolioButton>
-                    <PortfolioButton href="/projectgit" target="_blank">View Github</PortfolioButton>
+                    <PortfolioButton href="https://github.com/JacquesLJT/Pong" target="_blank">View Github</PortfolioButton>
                 </ButtomContainer>
             </PortfolioElement>
 
