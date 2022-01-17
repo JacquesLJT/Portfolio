@@ -68,11 +68,9 @@ export const MobileLogo = styled.a`
 export const NavLogo = styled.a`
     color: #fff;
     font-family: 'Exo 2', sans-serif;
-    cursor: pointer;
     font-size: 36px;
     text-decoration: none;
     font-weight: bold;
-    min-width: 320px;
 `;
 
 export const MobileIcon = styled.div`
@@ -105,7 +103,7 @@ export const NavItem = styled.li`
     align-items: center;
     justify-content: center;
     height: 80px;
-    width: 130px;
+    width: 150px;
 `;
 
 export const NavLink = styled(LinkS)`
@@ -122,4 +120,8 @@ export const NavLink = styled(LinkS)`
     &:hover {
         border-bottom: 3px solid #fff;
     }
+`;
+
+export const SpecialNavItem = styled.li`
+    min-width: min-content;
 `;

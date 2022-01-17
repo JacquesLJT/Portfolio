@@ -10,7 +10,8 @@ import {
     NavMenu,
     NavItem,
     NavLink,
-    MobileIcon
+    MobileIcon,
+    SpecialNavItem
 } from './navbarElements';
 
 const Navbar = ({toggle}) => {
@@ -35,7 +36,9 @@ const Navbar = ({toggle}) => {
                         <NavItem>
                             <NavLink to='skills' offset={-80} smooth={true} duration={1000}>Skills</NavLink>
                         </NavItem>
-                        <NavLogo href='/'>Landon Thibodeau</NavLogo>
+                        <SpecialNavItem>
+                            <NavLogo href='/'>Landon Thibodeau</NavLogo>
+                        </SpecialNavItem>
                         <NavItem>
                             <NavLink to='portfolio' offset={-80} smooth={true} duration={1000}>Portfolio</NavLink>
                         </NavItem>
