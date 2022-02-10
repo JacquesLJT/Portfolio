@@ -123,5 +123,5 @@ export const NavLink = styled(LinkS)`
 `;
 
 export const SpecialNavItem = styled.li`
-    width: 300px;
+    width: 350px;
 `;
