@@ -22,7 +22,7 @@ const Skills = () => {
                     <ListItem>JavaScript</ListItem>
                     <ListItem>React.js</ListItem>
                     <ListItem>Java</ListItem>
-                    <ListItem>C++</ListItem>
+                    <ListItem>Kotlin</ListItem>
                     <ListItem>C</ListItem>
                     <ListItem>HTML</ListItem>
                     <ListItem>CSS</ListItem>
